@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: sphinxcontrib-htmlhelp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinxcontrib-htmlhelp/sphinxcontrib-htmlhelp-{{ version }}.tar.gz
-  sha256: 4670f99f8951bd78cd4ad2ab962f798f5618b17675c35c5ac3b2132a14ea8422
+  sha256: e8f5bb7e31b2dbb25b9cc435c8ab7a79787ebf7f906155729338f3156d93659b
 
 build:
   number: 0
@@ -22,8 +22,11 @@ requirements:
 
 test:
   requires:
+    - pip
     # This is a circular dependency b/c sphinx depends on this package now :-/
     - sphinx >=2
+  commands:
+    - pip check
   imports:
     - sphinxcontrib
     - sphinxcontrib.htmlhelp
