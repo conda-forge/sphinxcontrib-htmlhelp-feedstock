@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinxcontrib-htmlhelp/sphinxcontrib-htmlhelp-{{ version }}.tar.gz
-  sha256: 0cbdd302815330058422b98a113195c9249825d681e18f11e8b1f78a2f11efff
+  sha256: f9515c1e2deac30498a8fa54b23a477943fc7432d6e7fcf23f7d90e12d3fdcd4
 
 build:
   number: 0
