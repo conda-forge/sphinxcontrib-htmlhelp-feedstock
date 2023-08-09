@@ -1,13 +1,17 @@
-About sphinxcontrib-htmlhelp
-============================
-
-Home: http://sphinx-doc.org/
-
-Package license: BSD-2-Clause
+About sphinxcontrib-htmlhelp-feedstock
+======================================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-htmlhelp-feedstock/blob/main/LICENSE.txt)
 
+Home: https://www.sphinx-doc.org/
+
+Package license: BSD-2-Clause
+
 Summary: sphinxcontrib-htmlhelp is a sphinx extension which ...
+
+Development: https://github.com/sphinx-doc/sphinxcontrib-htmlhelp
+
+Documentation: https://www.sphinx-doc.org/en/master/
 
 Current build status
 ====================
@@ -143,5 +147,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@AA-Turner](https://github.com/AA-Turner/)
+* [@conda-forge/sphinx](https://github.com/conda-forge/sphinx/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
