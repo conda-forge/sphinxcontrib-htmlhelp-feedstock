@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: sphinxcontrib-htmlhelp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinxcontrib-htmlhelp/sphinxcontrib_htmlhelp-{{ version }}.tar.gz
-  sha256: 14358d0f88ccf58447f2b54343cdcc0012f32de2f8d27cf934fdbc0b362f9597
+  sha256: 6c26a118a05b76000738429b724a0568dbde5b72391a688577da08f11891092a
 
 build:
   number: 0
