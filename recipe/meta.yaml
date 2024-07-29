@@ -35,7 +35,7 @@ about:
   home: https://www.sphinx-doc.org/
   license: BSD-2-Clause
   license_family: BSD
-  license_file: LICENSE.rst
+  license_file: LICENCE.rst
   summary: sphinxcontrib-htmlhelp is a sphinx extension which ...
   doc_url: https://www.sphinx-doc.org/en/master/
   dev_url: https://github.com/sphinx-doc/sphinxcontrib-htmlhelp
