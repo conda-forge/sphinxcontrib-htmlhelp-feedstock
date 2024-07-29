@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.1.0" %}
 
 package:
   name: sphinxcontrib-htmlhelp
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinxcontrib-htmlhelp/sphinxcontrib_htmlhelp-{{ version }}.tar.gz
-  sha256: c6597da06185f0e3b4dc952777a04200611ef563882e0c244d27a15ee22afa73
+  sha256: c9e2916ace8aad64cc13a0d233ee22317f2b9025b9cf3295249fa985cc7082e9
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   home: https://www.sphinx-doc.org/
   license: BSD-2-Clause
   license_family: BSD
-  license_file: LICENSE
+  license_file: LICENCE.rst
   summary: sphinxcontrib-htmlhelp is a sphinx extension which ...
   doc_url: https://www.sphinx-doc.org/en/master/
   dev_url: https://github.com/sphinx-doc/sphinxcontrib-htmlhelp
